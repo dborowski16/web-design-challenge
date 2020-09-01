@@ -1,0 +1,92 @@
+/* navbar style*/
+a.navbar-brand{
+    margin-left: 30px;
+    padding: 10px;
+    background-color: rgb(133, 81, 175);
+    font-family: 'Arial';
+    font-size: 25px;
+}
+
+.navbar{
+    padding-top:0px;
+    padding-bottom: 0px;
+    padding-right:40px;
+}
+
+.nav-item.dropdown.show {
+    background-color: rgb(133, 81, 175);
+}
+
+.dropdown-menu {
+    margin: 0;
+}
+
+/* header style*/
+h3{
+    color: rgb(133, 81, 175);
+    font-family: 'Arial';
+    padding: 10px;
+}
+
+/* image style*/
+.img-thumbnail{
+    padding:10px;
+    border: none;
+}
+
+/* fontstyle for text*/
+p{
+   font-family: Arial;
+   font-size: large;
+   padding:10px;
+}
+
+/* body background*/
+body{
+    background-color: rgb(42, 46, 63);
+}
+.col-md-12{
+    background-color: white;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+
+/* image border style*/
+.frame{
+    border: 3px solid rgb(38, 168, 107);
+}
+
+/* content style*/
+.content {
+    padding-top: 50px;
+    padding-bottom: 80px;
+    overflow: hidden;
+}
+
+.content.bg-white {
+    margin-top: 15px;
+}
+
+/* table text adjustments*/
+th, td {
+    padding: 5px;
+    text-align: center;
+    border: 0px;
+    border-bottom: 1px solid #ddd;
+}
+
+tr:nth-child(even) {background-color: #f2f2f2;}
+
+/* small screen adjustments*/
+@media(max-width:750px){
+    .navbar.bg-light{
+        background-color: rgb(133, 81, 175)!important;    
+    }
+
+    .navbar-collapse{
+        background-color: #f8f9fa;
+    }
+    .navbar{
+        padding:inherit;
+    }
+}
