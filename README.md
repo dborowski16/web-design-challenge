@@ -1,4 +1,6 @@
 # web-design-challenge
+Link to the final website: https://dborowski16.github.io/web-design-challenge/
+
 ![LatvTemp](https://github.com/dborowski16/web-design-challenge/blob/master/Resources/assets/images/Fig1.png)
 
 For this project, I will be creating a visualization dashboard website using visualizations we've created in a past assignment. Specifically, we'll be plotting weather data.
